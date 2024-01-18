@@ -3,7 +3,7 @@ public class Main {
     static double b = 0;
 
     public static void main(String[] args) {
-        //todo Вам нужно дополнить методы так, чтобы получился рабочий калькулятор
+        //todo Вам нужно дополнить методы так, чтобы получился рабочий калькулятор!
         a = inputDouble();
         b = inputDouble();
 
