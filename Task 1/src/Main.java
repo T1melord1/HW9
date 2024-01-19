@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Main {
     static double a = 0;
     static double b = 0;
-    static double input = 0;
+    static int input = 0;
     static double c = 0;
 
     public static void main(String[] args) {
@@ -59,9 +59,9 @@ public class Main {
 
         private static double inputDouble () {
             System.out.println("Введите первое число: ");
-            a = new Scanner(System.in).nextInt();
+            a = Double.parseDouble(new Scanner(System.in).nextLine());
             System.out.println("Введите второе число: ");
-            b = new Scanner(System.in).nextInt();
+            b = Double.parseDouble(new Scanner(System.in).nextLine());
             //todo дописать логику
             return 0;
 
@@ -69,7 +69,7 @@ public class Main {
 
         private static void inputText () {
             System.out.println("Введите ваш ответ: ");
-            input = new Scanner(System.in).nextInt();
+            input = Integer.parseInt(new Scanner(System.in).nextLine());
         }
 
 }
