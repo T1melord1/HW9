@@ -69,7 +69,12 @@ public class Main {
 
         private static void inputText () {
             System.out.println("Введите ваш ответ: ");
-            input = Integer.parseInt(new Scanner(System.in).nextLine());
-        }
+            try {
+                input = Integer.parseInt(new Scanner(System.in).nextLine());
+            }
+            catch (NumberFormatException e){
+                System.out.println("Ошибка: введено не число. Пожалуйста, введите число.");
+            }
+            }
 
 }
