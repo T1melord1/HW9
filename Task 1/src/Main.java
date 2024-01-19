@@ -57,13 +57,12 @@ public class Main {
             //todo дописать логику и печать результата
         }
 
-        private static double inputDouble () {
+        private static void inputDouble () {
             System.out.println("Введите первое число: ");
             a = Double.parseDouble(new Scanner(System.in).nextLine());
             System.out.println("Введите второе число: ");
             b = Double.parseDouble(new Scanner(System.in).nextLine());
             //todo дописать логику
-            return 0;
 
         }
 
